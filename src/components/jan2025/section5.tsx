@@ -9,11 +9,11 @@ export function MentorSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/images/cassia.webp"
-              width={600}
-              height={600}
+              src="/images/cassia.png"
+              width={300}
+              height={300}
               alt="Mentor"
-              className="rounded-xl w-full max-w-md mx-auto"
+              className="rounded-xl w-full max-w-md mx-auto rounded-tl-3xl rounded-tr-3xl"
             />
           </div>
 

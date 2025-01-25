@@ -21,7 +21,7 @@ export function HeroSection() {
         </div>
 
         {/* Smoke effect */}
-        <div className="absolute -top-20 left-1/2  -translate-x-1/2">
+        <div className="absolute -top-6 md:-top-20 left-1/2  -translate-x-1/2">
           <Image
             width={500}
             height={500}
@@ -67,18 +67,29 @@ export function HeroSection() {
               <span>Online, ao vivo e gratuito</span>
             </div>
           </div>
-        </div>
 
-        {/* Form */}
-        <div className="bg-gray-900/50 p-6 rounded-xl backdrop-blur">
+          {/* Form */}
+          <div className="bg-gray-900/50 p-6 rounded-xl backdrop-blur">
           <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Participe agora</h2>
-            <p className="text-gray-400">Preencha o formulário para não perder esta oportunidade.</p>
+            <h2 className="text-xl font-semibold mb-2">Inscreva-se gratuitamente</h2>
           </div>
          <Form 
             webhookLink="https://n8n.aesmkt.com.br/webhook/cassia-lzto-fev25"
          />
         </div>
+        </div>
+
+        {/* Image */}
+        <div className="self-end">
+          <Image
+            src="/images/cassia-hero.webp"
+            alt="Cássia Luz"
+            width={300}
+            height={300}
+            className="w-60 h-72 md:w-full md:h-full md:max-h-[700px] place-self-center"
+          />
+        </div>
+       
       </div>
     </div>
   )
