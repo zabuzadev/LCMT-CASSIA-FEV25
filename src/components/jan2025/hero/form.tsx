@@ -89,7 +89,7 @@ export default function Form({ showPhone = true, webhookLink }: FormProps) {
       .then(response => response.json())
       .then(result => {
         console.log('Webhook disparado com sucesso:', result);
-        window.location.href = 'https://www.fazendaafrica.com.br/abrindoaporteira-obg';
+        window.location.href = '/obg';
       })
       .catch(error => {
         console.error('Erro ao disparar o webhook:', error);
